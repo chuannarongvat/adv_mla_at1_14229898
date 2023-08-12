@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "adv-mla-2023-at1-14229898"
+version = "0.1.0"
+description = ""
+authors = ["chuannarongvat <narongvat.chingpayakmon@student.uts.edu.au>"]
+readme = "README.md"
+packages = [{include = "adv_mla_2023_at1_14229898"}]
+
+[tool.poetry.dependencies]
+python = "3.9.13"
+pandas = "2.0.1"
+jupyterlab = "3.6.3"
+scikit-learn = "1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
