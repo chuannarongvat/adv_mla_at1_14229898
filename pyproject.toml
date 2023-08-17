@@ -11,6 +11,8 @@ python = "3.9.13"
 pandas = "2.0.1"
 jupyterlab = "3.6.3"
 scikit-learn = "1.2.2"
+missingno = "^0.5.2"
+category-encoders = "^2.6.2"
 
 
 [build-system]
