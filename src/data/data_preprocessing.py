@@ -15,3 +15,12 @@ def missing_value(df):
 
     print("Columns with missing values:")
     print(missing_data)
+
+def unique_value(df, df_name):
+    cat_cols = [feature for feature in df.columns if df[feature].dtypes=='O']
+    
+    print(df_name)
+    print(f'Categorical Columns: {cat_cols}')
+    
+    for i in cat_cols:
+        print(f"{i}: {df[i].nunique()}")
